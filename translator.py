@@ -16,14 +16,14 @@ try:
     for line in lines:
         
         while True:
-            print("2.nokta")
+            
             now = datetime.now()
             print(now.second)
             if now.second == 13:
                 break
 
         if line == "":
-            print("4.nokta")
+            
             break
         
         translation = translator.translate(line,src="en",dest="tr")
@@ -35,7 +35,7 @@ try:
 
         #gönderici hesap bilgileri
         mymail = "your mail"
-        password = "yout mail password"        #google uygulama için şifre veriyor !!
+        password = "your application mail password"        #google uygulama için şifre veriyor !!
 
         #kime gonderilecek
         sentto = "your mail"
