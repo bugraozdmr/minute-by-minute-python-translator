@@ -34,11 +34,11 @@ try:
         content = "Subject: {0}\n\n{1}".format(subject,message)
 
         #gönderici hesap bilgileri
-        mymail = "bugra.ozdemir5834@gmail.com"
-        password = "aecbrcgoretejsis"        #google uygulama için şifre veriyor !!
+        mymail = "your mail"
+        password = "yout mail password"        #google uygulama için şifre veriyor !!
 
         #kime gonderilecek
-        sentto = "bugrareyiz12@gmail.com"
+        sentto = "your mail"
 
         mail = SMTP("smtp.gmail.com",587)   #google smtp sunucusu
         mail.ehlo()  #maile bağlandı
