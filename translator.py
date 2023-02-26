@@ -9,12 +9,12 @@ from googletrans import Translator, constants
 #Basit mail göndermek için kullanılır.
 try:
     translator = Translator()
-    with open(r"C:\Users\bugra\OneDrive\Masaüstü\translate\wordlist.txt","r+",encoding="utf-8") as file:
+    with open(r"your path","r+",encoding="utf-8") as file:
         lines = file.readlines()
 
 
     for line in lines:
-        print(line)
+        
         while True:
             print("2.nokta")
             now = datetime.now()
@@ -25,9 +25,9 @@ try:
         if line == "":
             print("4.nokta")
             break
-        print("dwd")
+        
         translation = translator.translate(line,src="en",dest="tr")
-        print("qwdqwdwqdwdwq")
+        
         # mail mesaj bilgisi
         subject = "dakikalık kelime"
         message = "{}\t--\t{}".format(line,translation.text)
