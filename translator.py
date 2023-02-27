@@ -1,4 +1,5 @@
 #saatlik-dakikaklık artık ne isterseniz mailinize kelime + anlamı gönderecek program
+#kendi mailinize kelime öğrenme amaçlı entegre edip googledan hazır server bulursanız kelime botu yapmış olursunuz
 
 from smtplib import SMTP
 from datetime import datetime
