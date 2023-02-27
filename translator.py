@@ -14,6 +14,8 @@ try:
 
 
     for line in lines:
+        if "\n" in line:
+            line = line[:-1]
         
         while True:
             
